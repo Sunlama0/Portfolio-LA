@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Newsletter</title>
+
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="right-container">
+      <h1>Restez informé</h1>
+      <p> Rejoignez plus de 60 000 clients et recevez des mises à jour mensuelles sur :</p>
+      <ul>
+        <li class="list-item"><img class="icon" src="./assets/images/icon-success.svg" alt="checkmark">Découverte de
+          produits
+          et construire ce qui compte</li>
+        <li class="list-item"><img class="icon" src="./assets/images/icon-success.svg" alt="checkmark">Mesurer pour
+          s'assurer que les mises à jour sont un succès</li>
+        <li class="list-item"><img class="icon" src="./assets/images/icon-success.svg" alt="checkmark">Et bien plus
+          encore !
+        </li>
+      </ul>
+
+      <form id="form" action="/" method="GET">
+        <span id="error"></span>
+        <label for="email">Adresse Mail </label>
+        <input type="text" id="email" name="email" placeholder="lucas.aveline@la-services.fr">
+        <button type="submit">S'abonner à la newsletter mensuelle</button>
+      </form>
+    </div>
+
+    <div class="left-container">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>

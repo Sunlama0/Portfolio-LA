@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS SIO | Options SLAM et SISR</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="../dist/styles.css" rel="stylesheet">
+    <link rel="icon" href="../src/img/favicon.ico">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Section Styles */
+        .section-header {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .section-subheader {
+            font-size: 1.25rem;
+            color: #4b5563;
+            margin-bottom: 40px;
+        }
+
+        /* Main card design for SLAM & SISR */
+        .option-card {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .option-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .option-card h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Icon styling */
+        .option-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #1e40af;
+        }
+
+        /* Bubble design for job titles */
+        .bubble {
+            background-color: #f3f4f6;
+            padding: 10px 20px;
+            border-radius: 30px;
+            margin-bottom: 10px;
+            display: inline-block;
+            font-size: 1rem;
+            color: #374151;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+            transition: background-color 0.3s ease;
+        }
+
+        .bubble:hover {
+            background-color: #e5e7eb;
+        }
+
+        /* Align SLAM & SISR cards side by side */
+        .card-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .titre {
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white p-4 shadow-lg fixed w-full top-0 left-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="../index.html" class="text-2xl font-bold text-gray-800">Lucas Aveline</a>
+            <ul class="flex space-x-6">
+                <li><a href="../index.html" class="hover:text-blue-500">Accueil</a></li>
+                <li><a href="./bts-sio.html" class="hover:text-blue-500">BTS SIO</a></li>
+                <li><a href="./entreprise.html" class="hover:text-blue-500">École & Entreprise</a></li>
+                <li><a href="./realisations.html" class="hover:text-blue-500">Réalisations</a></li>
+                <li><a href="./projets.html" class="hover:text-blue-500">Projets</a></li>
+                <li><a href="./veille.html" class="hover:text-blue-500">Veille Technologique</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section for BTS SIO -->
+    <section class="pt-24 pb-12 bg-gray-50">
+        <div class="titre container mx-auto text-center">
+            <h1 class="text-5xl font-bold text-gray-900 mb-6">BTS SIO</h1>
+            <p class="text-xl text-gray-700">Le BTS Services Informatiques aux Organisations (SIO) se divise en deux options : SLAM et SISR. Découvrez chacune des options et les métiers auxquels elles mènent.</p>
+        </div>
+    </section>
+
+    <!-- SLAM & SISR Cards -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 lg:px-12 text-center">
+            <div class="card-container">
+                <!-- Option SLAM -->
+                <div class="option-card">
+                    <i class="fas fa-code option-icon"></i>
+                    <h3>Option SLAM</h3>
+                    <p class="section-subheader">Solutions logicielles et applications métiers, développement et intégration de logiciels.</p>
+                    <div class="bubble">Développeur d'applications informatiques</div>
+                    <div class="bubble">Développeur informatique</div>
+                    <div class="bubble">Analyste d'applications</div>
+                    <div class="bubble">Analyste programmeur</div>
+                    <div class="bubble">Programmeur d'applications</div>
+                    <div class="bubble">Responsable des services applicatifs</div>
+                    <div class="bubble">Technicien d'études informatiques</div>
+                </div>
+
+                <!-- Option SISR -->
+                <div class="option-card">
+                    <i class="fas fa-network-wired option-icon"></i>
+                    <h3>Option SISR</h3>
+                    <p class="section-subheader">Infrastructures, systèmes et réseaux, maintenance et sécurité des équipements informatiques.</p>
+                    <div class="bubble">Administrateur systèmes et réseaux</div>
+                    <div class="bubble">Informaticien support et déploiement</div>
+                    <div class="bubble">Pilote d'exploitation</div>
+                    <div class="bubble">Support systèmes et réseaux</div>
+                    <div class="bubble">Technicien d'infrastructure</div>
+                    <div class="bubble">Technicien de production</div>
+                    <div class="bubble">Technicien micro et réseaux</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <!-- Liens avec icônes et espacement ajusté -->
+            <div class="flex justify-center items-center space-x-8">
+                <a href="mailto:lucas.aveline@example.com" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-envelope mr-2"></i> Envoyer un mail
+                </a>
+                <a href="tel:+330123456789" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-phone-alt mr-2"></i> Appelez-moi
+                </a>
+                <a href="src/files/CV AVELINE LUCAS.pdf" target="_blank" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-file-alt mr-2"></i> Voir mon CV
+                </a>
+            </div>
+            <!-- Texte de copyright -->
+            <p class="text-gray-600 text-sm mt-6">
+                ©2024 LA SERVICES. Tous droits réservés. | Conçu par Lucas Aveline
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- FontAwesome for Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(58, 17, 97);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quiz-question {
+    margin-bottom: 20px;
+    background: rgb(169, 131, 205);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 14px -1px rgba(0, 0, 0, 0.65);
+}
+
+.quiz-question p {
+    color: rgb(58, 17, 97);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.quiz-question label {
+    display: block;
+    margin: 10px 0;
+    color: rgb(58, 17, 97);
+}
+
+.quiz-question input[type="radio"] {
+    margin-right: 10px;
+}
+
+.quiz-question .checkmark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.quiz-question input[type="radio"]:checked~.checkmark {
+    background-color: #6200ea;
+    border-color: #6200ea;
+}
+
+.quiz-question input[type="radio"]:checked~.checkmark:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.quiz-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: rgb(58, 17, 97);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.submit-button:hover {
+    background-color: #76A5D2;
+}
+
+.footer-text {
+    background-color: rgb(169, 131, 205);
+    color: rgb(58, 17, 97);
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.wrong-answer {
+    animation: shake 0.5s linear;
+}

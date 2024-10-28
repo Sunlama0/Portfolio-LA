@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="form">
+
+        <div class="form-group">
+          <label for="day">JOURS</label>
+          <input type="text" id="day" name="day" placeholder="DD">
+          <span class="error day-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="day">MOIS</label>
+          <input type="text" id="month" name="month" placeholder="MM">
+          <span class="error month-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="day">ANNEE</label>
+          <input type="text" id="year" name="year" placeholder="YYYY">
+          <span class="error year-error"></span>
+        </div>
+
+      </div>
+
+      <div class="btn">
+        <img src="assets/images/icon-arrow.svg" alt="">
+        <span></span>
+      </div>
+
+      <div class="result">
+        <h1><span class="year-result">- -</span> ans</h1>
+        <h1><span class="month-result">- -</span> mois</h1>
+        <h1><span class="day-result">- -</span> jours</h1>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="attribution">
+    <p>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coder par <a
+        href="https://github.com/Sunlama0">Sunlama</a>.
+    </p>
+  </footer>
+</body>
+
+</html>

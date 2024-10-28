@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --clr-primary: hsl(75, 94%, 57%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+    --clr-neutral-grey: hsl(0, 0%, 20%);
+    --clr-neutral-dark-grey: hsl(0, 0%, 12%);
+    --clr-neutral-off-black: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    display: grid;
+    place-content: center;
+    background-color: var(--clr-neutral-off-black);
+    min-height: 100vh;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    background-color: var(--clr-neutral-dark-grey);
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.image {
+    width: 85px;
+    border-radius: 50%;
+}
+
+.image .profile-image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.texte-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.texte-info .nom {
+    color: var(--clr-neutral-white);
+    font-weight: var(--fw-semi-bold);
+    font-size: 1.5rem;
+}
+
+.texte-info .localisation {
+    color: var(--clr-primary);
+    font-size: 0.8em;
+    font-weight: var(--fw-regular);
+}
+
+.texte-metier {
+    color: var(--clr-neutral-white);
+    font-weight: var(--fw-regular);
+    font-size: 1rem;
+}
+
+.social-btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 18px;
+}
+
+.btn {
+    background-color: var(--clr-neutral-grey);
+    padding: 15px 72px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: var(--clr-neutral-white);
+}
+
+.btn:hover {
+    background-color: var(--clr-primary);
+    color: black;
+}
+
+.attribution {
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+
+    body {
+        background-color: var(--clr-neutral-dark-grey);
+    }
+
+}

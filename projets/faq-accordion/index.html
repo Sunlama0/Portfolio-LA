@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>FAQ</title>
+</head>
+
+<body>
+  <main>
+    <div class="bg"></div>
+    <div class="accordeon">
+      <div class="accordeon__title">
+        <img src="assets/images/icon-star.svg" alt="star icon" />
+        <h1>FAQs</h1>
+      </div>
+
+      <article class="accordeon__panel">
+        <h2 id="panel1__title">
+          <button class="accordeon__trigger" aria-expanded="true" aria-controls="accordeon1__content">
+            Qu'est-ce que Frontend Mentor, et comment peut-il aider ?
+          </button>
+          <span class="accordeon__buttons">
+            <img class="plus" src="assets/images/icon-plus.svg" alt="plus icon" />
+            <img class="minus" src="assets/images/icon-minus.svg" alt="minus icon" />
+          </span>
+        </h2>
+
+        <div class="accordeon__content" role="region" aria-labelledby="panel1__title" aria-hidden="false"
+          id="accordeon1__content">
+          <p>
+            Frontend Mentor propose des défis de codage réalistes pour aider les développeurs à améliorer leurs compétences en codage frontal avec des projets en ligne.
+            les développeurs à améliorer leurs compétences en codage frontal avec des projets en
+            HTML, CSS et JavaScript. Il convient à tous les niveaux et est idéal
+            pour la construction d'un portfolio.
+          </p>
+        </div>
+      </article>
+
+      <article class="accordeon__panel">
+        <h2 id="panel2__title">
+          <button class="accordeon__trigger" aria-expanded="false" aria-controls="accordeon2__content">
+            Frontend Mentor est-il gratuit ?
+          </button>
+          <span class="accordeon__buttons">
+            <img class="plus" src="assets/images/icon-plus.svg" alt="plus icon" />
+            <img class="minus" src="assets/images/icon-minus.svg" alt="minus icon" />
+          </span>
+        </h2>
+
+        <div class="accordeon__content" role="region" aria-labelledby="panel2__title" aria-hidden="true"
+          id="accordeon2__content">
+          <p>
+            Oui, Frontend Mentor propose des défis de codage gratuits et premium.
+            l'option gratuite permet d'accéder à une gamme de projets
+            projets adaptés à tous les niveaux de compétence.
+          </p>
+        </div>
+      </article>
+
+      <article class="accordeon__panel">
+        <h2 id="panel3__title">
+          <button class="accordeon__trigger" aria-expanded="false" aria-controls="accordeon3__content">
+            Puis-je utiliser les projets de Frontend Mentor dans mon portfolio ?
+          </button>
+          <span class="accordeon__buttons">
+            <img class="plus" src="assets/images/icon-plus.svg" alt="plus icon" />
+            <img class="minus" src="assets/images/icon-minus.svg" alt="minus icon" />
+          </span>
+        </h2>
+
+        <div class="accordeon__content" role="region" aria-labelledby="panel3__title" aria-hidden="true"
+          id="accordeon3__content">
+          <p>
+            Oui, vous pouvez utiliser les projets réalisés sur Frontend Mentor dans votre
+            portfolio. C'est un excellent moyen de présenter vos compétences à des
+            employeurs potentiels !
+          </p>
+        </div>
+      </article>
+
+      <article class="accordeon__panel">
+        <h2 id="panel4__title">
+          <button class="accordeon__trigger" aria-expanded="false" aria-controls="accordeon4__content">
+            Comment puis-je obtenir de l'aide si je suis bloqué dans un défi ?
+          </button>
+          <span class="accordeon__buttons">
+            <img class="plus" src="assets/images/icon-plus.svg" alt="plus icon" />
+            <img class="minus" src="assets/images/icon-minus.svg" alt="minus icon" />
+          </span>
+        </h2>
+
+        <div class="accordeon__content" role="region" aria-labelledby="panel4__title" aria-hidden="true"
+          id="accordeon4__content">
+          <p>
+            Le meilleur endroit pour obtenir de l'aide est le Discord de Frontend Mentor
+            de Frontend Mentor. Il y a un canal d'aide où vous pouvez poser des questions et
+            demander de l'aide aux autres membres de la communauté.
+          </p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    <p>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coder par <a
+        href="https://github.com/Sunlama0">Sunlama</a>.
+    </p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

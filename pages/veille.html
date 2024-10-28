@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique | Portfolio Lucas</title>
+    <link href="../dist/styles.css" rel="stylesheet">
+    <link rel="icon" href="../src/img/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .tool-logo {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            object-fit: contain;
+        }
+
+        .tool-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .tool-section img {
+            transition: transform 0.3s ease;
+        }
+
+        .tool-section img:hover {
+            transform: scale(1.1);
+        }
+
+        .subject {
+            margin-top: 40px;
+        }
+
+        .titre {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white p-4 shadow-lg fixed w-full top-0 left-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Lucas Aveline</h1>
+            <ul class="flex space-x-6">
+                <li><a href="../index.html" class="hover:text-blue-500">Accueil</a></li>
+                <li><a href="./bts-sio.html" class="hover:text-blue-500">BTS SIO</a></li>
+                <li><a href="./entreprise.html" class="hover:text-blue-500">École & Entreprise</a></li>
+                <li><a href="./realisations.html" class="hover:text-blue-500">Réalisations</a></li>
+                <li><a href="./projets.html" class="hover:text-blue-500">Projets</a></li>
+                <li><a href="./veille.html" class="hover:text-blue-500">Veille Technologique</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section principale -->
+    <section class="py-24 mt-8 pb-12">
+        <div class="container mx-auto text-center">
+            <h1 class="titre text-5xl font-bold mb-8">Veille Technologique</h2>
+                <p class="text-lg text-gray-700 max-w-4xl mx-auto mb-6">
+                    La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions
+                    techniques, les innovations dans un secteur d’activité donné. Cette surveillance permet de rester
+                    informé des dernières tendances et avancées pour pouvoir anticiper les changements et s'adapter aux
+                    nouveautés.
+                </p>
+        </div>
+
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-semibold mt-12 mb-4">Principaux outils de ma veille</h3>
+            <p class="text-lg text-gray-700">
+                J'utilise plusieurs outils pour surveiller les avancées technologiques :
+                <br>
+                <strong>Feedly</strong> pour suivre les flux RSS de sites spécialisés, <strong>OpenAI</strong> pour
+                comprendre l'intelligence artificielle et <strong>Google Alerts</strong> pour recevoir des notifications
+                par email sur des mots-clés spécifiques.
+            </p>
+        </div>
+
+        <!-- Section Outils -->
+        <div class="container mx-auto text-center tool-section">
+            <img src="../src/img/feedly.png" alt="Logo Feedly" class="tool-logo">
+            <img src="../src/img/openia.png" alt="Logo OpenAI" class="tool-logo">
+            <img src="../src/img/googlealerts.png" alt="Logo Google Alerts" class="tool-logo">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <!-- Liens avec icônes et espacement ajusté -->
+            <div class="flex justify-center items-center space-x-8">
+                <a href="mailto:lucas.aveline@example.com"
+                    class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-envelope mr-2"></i> Envoyer un mail
+                </a>
+                <a href="tel:+330123456789" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-phone-alt mr-2"></i> Appelez-moi
+                </a>
+                <a href="src/files/CV AVELINE LUCAS.pdf" target="_blank"
+                    class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-file-alt mr-2"></i> Voir mon CV
+                </a>
+            </div>
+            <!-- Texte de copyright -->
+            <p class="text-gray-600 text-sm mt-6">
+                ©2024 LA SERVICES. Tous droits réservés. | Conçu par Lucas Aveline
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="/src/main.js" defer></script>
+</body>
+
+</html>

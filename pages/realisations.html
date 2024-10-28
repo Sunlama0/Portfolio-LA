@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réalisations</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="../dist/styles.css" rel="stylesheet">
+    <link rel="icon" href="../src/img/favicon.ico">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Filter Button Styles */
+        .filter-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 50px;
+            margin-bottom: -30px;
+            gap: 15px;
+        }
+
+        .filter-btn {
+            background-color: #1e40af;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            border: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .filter-btn:hover {
+            background-color: #374151;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .filter-btn.active {
+            background-color: #6366f1;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 400px;
+            height: 450px;
+            margin: 0 auto;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        .card img:hover {
+            opacity: 0.8;
+        }
+
+        .card h3 {
+            font-size: 1.6rem;
+            margin-top: 15px;
+            color: #1e40af;
+        }
+
+        .bubble-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .bubble {
+            background-color: #f1f5f9;
+            padding: 8px 15px;
+            border-radius: 30px;
+            display: inline-block;
+            font-size: 0.875rem;
+            color: #374151;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #374151;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        .button {
+            background-color: #1e40af;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Grid for cards - 3 per line */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        /* Pagination Styles */
+        .pagination {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 30px;
+        }
+
+        .pagination button {
+            background-color: transparent;
+            color: #1e40af;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border: 1px solid #e2e8f0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pagination button.active {
+            background-color: #6366f1;
+            color: white;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+
+            .pagination {
+                justify-content: center;
+            }
+
+            .filter-container {
+                position: static;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 left-0 z-50">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="#" class="text-2xl font-bold text-gray-800">Lucas Aveline</a>
+            <ul class="flex space-x-6">
+                <li><a href="../index.html" class="text-gray-600 hover:text-blue-500 transition duration-300">Accueil</a></li>
+                <li><a href="bts-sio.html" class="text-gray-600 hover:text-blue-500 transition duration-300">BTS SIO</a></li>
+                <li><a href="entreprise.html" class="text-gray-600 hover:text-blue-500 transition duration-300">École & Entreprise</a></li>
+                <li><a href="realisations.html" class="text-gray-600 hover:text-blue-500 transition duration-300">Réalisations</a></li>
+                <li><a href="projets.html" class="text-gray-600 hover:text-blue-500 transition duration-300">Projets</a></li>
+                <li><a href="veille.html" class="text-gray-600 hover:text-blue-500 transition duration-300">Veille Technologique</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section for Réalisations -->
+    <section class="pt-24 pb-12 bg-gray-50">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold text-gray-900 mb-6">Mes Réalisations</h1>
+            <p class="text-xl text-gray-700">Découvrez mes projets réalisés dans le cadre de ma formation et de mes expériences professionnelles.</p>
+        </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section>
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <!-- <button class="filter-btn" data-filter="HTMLCSS">HTML / CSS</button> -->
+            <!-- <button class="filter-btn" data-filter="css">CSS</button> -->
+            <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button class="filter-btn" data-filter="php">PHP</button>
+            <button class="filter-btn" data-filter="laravel">Laravel</button>
+        </div>
+    </section>
+
+    <!-- Project Cards -->
+    <section class="py-16">
+        <div class="container mx-auto px-6 lg:px-12">
+            <div class="grid-container" id="project-grid">
+                <!-- Cards will be dynamically added here -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination"></div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <!-- Liens avec icônes et espacement ajusté -->
+            <div class="flex justify-center items-center space-x-8">
+                <a href="mailto:lucas.aveline@example.com" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-envelope mr-2"></i> Envoyer un mail
+                </a>
+                <a href="tel:+330123456789" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-phone-alt mr-2"></i> Appelez-moi
+                </a>
+                <a href="src/files/CV AVELINE LUCAS.pdf" target="_blank" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-file-alt mr-2"></i> Voir mon CV
+                </a>
+            </div>
+            <!-- Texte de copyright -->
+            <p class="text-gray-600 text-sm mt-6">
+                ©2024 LA SERVICES. Tous droits réservés. | Conçu par Lucas Aveline
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript for Filtering and Pagination -->
+    <script>
+        const projects = [
+            {title: "ATTIME CRM", image: "../src/img/attime-crm.png", languages: ["HTML / CSS", "PHP", "JavaScript"], description: "Développement d'une CRM pour un client en utilisant HTML, CSS, PHP et JavaScript.", link: "attime.org"},
+            {title: "Défi Age Calculator", image: "../src/img/age-calculator.png", languages: ["HTML / CSS", "JavaScript"], description: "Développement d'une application de calcul de l'âge.", link: "../projets/age-calculator/index.html"},
+            {title: "Secret Santa", image: "../src/img/secret-santa.png", languages: ["HTML / CSS", "PHP", "JavaScript"], description: "Développement d'un système de Secret Santa pour mon alternance.", link: "#"},
+            {title: "Défi FAQ", image: "../src/img/faq-accordion.png", languages: ["HTML / CSS", "JavaScript"], description: "Création d'une FAQ en respectant un modèle de conception.", link: "../projets/faq-accordion/index.html"},
+            {title: "Défi Interactive Rating", image: "../src/img/interactive-rating.png", languages: ["HTML / CSS", "JavaScript"], description: "Développement d'un composant de notation interactif.", link: "../projets/interactive-rating/index.html"},
+            {title: "Défi Password Generator", image: "../src/img/password-generator.png", languages: ["HTML / CSS", "JavaScript"], description: "Développement d'une application de génération de mots de passe.", link: "../projets/Password-Generator/index.html"},
+            {title: "Défi Recipe Page", image: "../src/img/recipe-page.png", languages: ["HTML", "CSS"], description: "Création d'une page de recettes.", link: "../projets/recipe-page/index.html"},
+            {title: "Défi Social Profile", image: "../src/img/social-profile.png", languages: ["HTML / CSS", "JavaScript"], description: "Création d'un profil de liens sociaux.", link: "../projets/social-profile/index.html"},
+            {title: "QCM", image: "../src/img/qcm.png", languages: ["HTML / CSS", "JavaScript"], description: "Création d'un formulaire de question dans le cadre de ma formation.", link: "../projets/QCM/index.html"},
+            {title: "Défi Newsletter", image: "../src/img/Newsletter.png", languages: ["HTML / CSS", "JavaScript", "PHP"], description: "Création d'une page de newsletter interactive.", link: "../projets/Newsletter/index.html"},
+            {title: "Défi Tic Tac Toe", image: "../src/img/tictactoe.png", languages: ["HTML / CSS", "JavaScript"], description: "Développement d'un jeu de morpion (Tic Tac Toe).", link: "../projets/Tic-Tac-Toe/index.html"},
+            {title: "Le Chat", image: "../src/img/chat.png", languages: ["HTML / CSS", "JavaScript"], description: "Création d'un site web en HTML, CSS et JavaScript.", link: "../projets/Le Chat/index.html"},
+            {title: "ToDoList", image: "../src/img/todolistlaravel.png", languages: ["HTML / CSS", "Laravel"], description: "Création d'un site web en HTML, CSS et JavaScript.", link: "https://laughing-kare.213-165-87-41.plesk.page/"},
+        ];
+
+        const itemsPerPage = 9;
+        let currentPage = 1;
+
+        const projectGrid = document.getElementById('project-grid');
+        const pagination = document.getElementById('pagination');
+
+        function displayProjects(filteredProjects) {
+            projectGrid.innerHTML = '';
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const visibleProjects = filteredProjects.slice(start, end);
+
+            visibleProjects.forEach(project => {
+                const projectCard = `
+                    <div class="card">
+                        <img src="${project.image}" alt="${project.title}">
+                        <h3>${project.title}</h3>
+                        <div class="bubble-container">
+                            ${project.languages.map(language => `<div class="bubble">${language}</div>`).join('')}
+                        </div>
+                        <p>${project.description}</p>
+                        <a href="${project.link}" class="button">Voir le projet</a>
+                    </div>
+                `;
+                projectGrid.innerHTML += projectCard;
+            });
+        }
+
+        function generatePagination(totalPages, filteredProjects) {
+            pagination.innerHTML = '';
+            for (let i = 1; i <= totalPages; i++) {
+                const pageButton = document.createElement('button');
+                pageButton.textContent = i;
+                pageButton.classList.add('page-btn');
+                if (i === currentPage) {
+                    pageButton.classList.add('active');
+                }
+                pageButton.addEventListener('click', () => {
+                    currentPage = i;
+                    displayProjects(filteredProjects);
+                    generatePagination(totalPages, filteredProjects);
+                });
+                pagination.appendChild(pageButton);
+            }
+        }
+
+        function updatePagination(filteredProjects) {
+            const totalPages = Math.ceil(filteredProjects.length / itemsPerPage);
+            generatePagination(totalPages, filteredProjects);
+        }
+
+        function filterProjects(language) {
+            if (language === 'all') {
+                return projects;
+            } else {
+                return projects.filter(project => project.languages.map(lang => lang.toLowerCase()).includes(language));
+            }
+        }
+
+        // Handle filter click
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const filterValue = event.target.getAttribute('data-filter');
+                const filteredProjects = filterProjects(filterValue);
+                currentPage = 1; // Reset to the first page on filter change
+                displayProjects(filteredProjects);
+                updatePagination(filteredProjects);
+
+                // Mark the active button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                event.target.classList.add('active');
+            });
+        });
+
+        // Display the first page of all projects when the page loads
+        displayProjects(projects);
+        updatePagination(projects);
+    </script>
+
+</body>
+</html>

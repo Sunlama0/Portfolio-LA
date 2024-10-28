@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Lucas Aveline</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="./dist/styles.css" rel="stylesheet">
+    <link rel="icon" href="src/img/favicon.ico">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Custom styles */
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            /* Center the image horizontally */
+            align-items: center;
+            /* Center the image vertically */
+        }
+
+        .photo-container img {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Adjusting flex layout for presentation */
+        .presentation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .hero-text {
+            max-width: 500px;
+        }
+
+        .hero-text h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            color: #1e40af;
+        }
+
+        .hero-text p {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #4b5563;
+        }
+
+        /* Limiting skills to 4 per row without taking the entire width */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* Limiting to 4 columns */
+            gap: 10px;
+            /* Reduced gap between skills */
+            padding-left: 75px;
+            /* Add padding to the left */
+            padding-right: 75px;
+            /* Add padding to the right */
+            justify-items: center;
+        }
+
+        .icon {
+            font-size: 3rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .icon:hover {
+            color: #1e40af;
+            transform: rotate(15deg);
+        }
+
+        /* Card hover effect */
+        .competency {
+            background-color: #f9fafb;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .competency:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white p-4 shadow-lg fixed w-full top-0 left-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="../index.html" class="text-2xl font-bold text-gray-800">Lucas Aveline</a>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-blue-500">Accueil</a></li>
+                <li><a href="./pages/bts-sio.html" class="hover:text-blue-500">BTS SIO</a></li>
+                <li><a href="./pages/entreprise.html" class="hover:text-blue-500">École & Entreprise</a></li>
+                <li><a href="./pages/realisations.html" class="hover:text-blue-500">Réalisations</a></li>
+                <li><a href="./pages/projets.html" class="hover:text-blue-500">Projets</a></li>
+                <li><a href="./pages/veille.html" class="hover:text-blue-500">Veille Technologique</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section: Présentation avec photo -->
+    <section id="presentation" class="min-h-screen bg-gray-50 flex items-center justify-center pt-24">
+        <div class="container mx-auto px-6 lg:px-12 text-center lg:text-left">
+            <div class="flex flex-col lg:flex-row items-center lg:justify-between space-y-8 lg:space-y-0">
+                <div class="lg:w-1/2">
+                    <h1 class="text-5xl font-bold text-gray-900 leading-tight">
+                        Je suis <span class="text-blue-500">Lucas Aveline</span>, développeur en BTS SIO.
+                    </h1>
+                    <p class="text-xl text-gray-600 mt-4">Je combine passion et compétences pour créer des solutions
+                        logicielles élégantes et efficaces.</p>
+
+                    <!-- Boutons pour CV, Tableau de Synthèse et Compétences -->
+                    <div class="mt-12 flex justify-start space-x-6">
+                        <a href="src/files/CV AVELINE LUCAS.pdf" target="_blank"
+                            class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-gray-900 transition duration-300 transform hover:scale-105">
+                            CV
+                        </a>
+                        <a href="src/files/Tableau de syntheÌse - Epreuve E4.pdf" target="_blank"
+                            class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-gray-900 transition duration-300 transform hover:scale-105">
+                            Tableau de Synthèse
+                        </a>
+                        <a href="#skills"
+                            class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-900 transition duration-300 transform hover:scale-105">
+                            Compétences
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Image is centered in the remaining space -->
+                <div class="lg:w-1/2 photo-container text-center">
+                    <img src="src/img/lucas.jpg" alt="Photo de Lucas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section: À propos de moi -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-gray-900 mb-8">À propos de moi</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Étudiant en BTS SIO option SLAM, je suis passionné par l'informatique et la création de solutions
+                innovantes. Mon objectif est d'allier créativité et technique pour offrir des solutions performantes et
+                sécurisées.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section: Limité à 4 compétences par ligne -->
+    <section id="skills" class="py-24 bg-gray-50">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-gray-900 mb-8">Mes Compétences</h2>
+            <div class="grid skills-grid mx-6">
+                <div class="competency">
+                    <i class="fab fa-html5 icon text-orange-500"></i>
+                    <p class="mt-4 text-lg font-semibold">HTML5</p>
+                </div>
+                <div class="competency">
+                    <i class="fab fa-css3-alt icon text-blue-500"></i>
+                    <p class="mt-4 text-lg font-semibold">CSS3</p>
+                </div>
+                <div class="competency">
+                    <i class="fab fa-js icon text-yellow-400"></i>
+                    <p class="mt-4 text-lg font-semibold">JavaScript</p>
+                </div>
+                <div class="competency">
+                    <i class="fab fa-laravel icon text-red-600"></i>
+                    <p class="mt-4 text-lg font-semibold">Laravel</p>
+                </div>
+                <div class="competency">
+                    <i class="fas fa-code icon text-purple-500"></i>
+                    <p class="mt-4 text-lg font-semibold">C#</p>
+                </div>
+                <div class="competency">
+                    <i class="fab fa-node icon text-green-500"></i>
+                    <p class="mt-4 text-lg font-semibold">Node.js</p>
+                </div>
+                <div class="competency">
+                    <i class="fas fa-database icon text-blue-500"></i>
+                    <p class="mt-4 text-lg font-semibold">MySQL</p>
+                </div>
+                <div class="competency">
+                    <i class="fab fa-github icon text-gray-900"></i>
+                    <p class="mt-4 text-lg font-semibold">Github</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-24 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-gray-900 mb-12">Mes Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center px-12">
+
+                <!-- Certification 1 -->
+                <div
+                    class="certification bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition duration-300 max-w-sm mx-auto">
+                    <img src="src/img/pixlogo.png" alt="Logo Pix" class="mx-auto mb-3 w-16 h-16 object-contain">
+                    <h3 class="certification-title text-xl font-bold text-gray-800 mb-1">Pix</h3>
+                    <p class="text-gray-700 text-sm mb-3">Certification en compétences numériques reconnue en France.
+                    </p>
+                    <p class="text-gray-600 text-sm italic mb-4">Obtention : Mars 2023</p>
+                    <a href="src/files/attestation-pix.pdf" target="_blank"
+                        class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:from-blue-600 hover:to-indigo-600 transition duration-300">Télécharger
+                        PDF</a>
+                </div>
+
+                <!-- Certification 2 -->
+                <div
+                    class="certification bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition duration-300 max-w-sm mx-auto">
+                    <img src="src/img/cnillogo.png" alt="Logo RGPD CNIL" class="mx-auto mb-3 w-16 h-16 object-contain">
+                    <h3 class="certification-title text-xl font-bold text-gray-800 mb-1">RGPD CNIL 1</h3>
+                    <p class="text-gray-700 text-sm mb-3">Certification en conformité avec le Règlement Général sur la
+                        Protection des Données.</p>
+                    <p class="text-gray-600 text-sm italic mb-4">Obtention : Septembre 2024</p>
+                    <a href="src/files/Certificat_CNIL_1.pdf" target="_blank"
+                        class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:from-blue-600 hover:to-indigo-600 transition duration-300">Télécharger
+                        PDF</a>
+                </div>
+
+                <!-- Certification 3 -->
+                <div
+                    class="certification bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition duration-300 max-w-sm mx-auto">
+                    <img src="src/img/cnillogo.png" alt="Logo RGPD CNIL" class="mx-auto mb-3 w-16 h-16 object-contain">
+                    <h3 class="certification-title text-xl font-bold text-gray-800 mb-1">RGPD CNIL 2</h3>
+                    <p class="text-gray-700 text-sm mb-3">Certification en conformité avec le Règlement Général sur la
+                        Protection des Données.</p>
+                    <p class="text-gray-600 text-sm italic mb-4">Obtention : Septembre 2024</p>
+                    <a href="src/files/Certificat_CNIL_2.pdf" target="_blank"
+                        class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:from-blue-600 hover:to-indigo-600 transition duration-300">Télécharger
+                        PDF</a>
+                </div>
+
+                <!-- Certification 4 -->
+                <div
+                    class="certification bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition duration-300 max-w-sm mx-auto">
+                    <img src="src/img/cnillogo.png" alt="Logo RGPD CNIL" class="mx-auto mb-3 w-16 h-16 object-contain">
+                    <h3 class="certification-title text-xl font-bold text-gray-800 mb-1">RGPD CNIL 3</h3>
+                    <p class="text-gray-700 text-sm mb-3">Certification en conformité avec le Règlement Général sur la
+                        Protection des Données.</p>
+                    <p class="text-gray-600 text-sm italic mb-4">Obtention : Septembre 2024</p>
+                    <a href="src/files/Certificat_CNIL_3.pdf" target="_blank"
+                        class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:from-blue-600 hover:to-teal-600 transition duration-300">Télécharger
+                        PDF</a>
+                </div>
+
+                <!-- Certification 5 -->
+                <div
+                    class="certification bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition duration-300 max-w-sm mx-auto">
+                    <img src="src/img/cnillogo.png" alt="Logo RGPD CNIL" class="mx-auto mb-3 w-16 h-16 object-contain">
+                    <h3 class="certification-title text-xl font-bold text-gray-800 mb-1">RGPD CNIL 4</h3>
+                    <p class="text-gray-700 text-sm mb-3">Certification en conformité avec le Règlement Général sur la
+                        Protection des Données.</p>
+                    <p class="text-gray-600 text-sm italic mb-4">Obtention : Septembre 2024</p>
+                    <a href="src/files/Certificat_CNIL_4.pdf" target="_blank"
+                        class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:from-yellow-600 hover:to-orange-600 transition duration-300">Télécharger
+                        PDF</a>
+                </div>
+
+                <!-- Certification 6 -->
+                <div
+                    class="certification bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition duration-300 max-w-sm mx-auto">
+                    <img src="src/img/cnillogo.png" alt="Logo RGPD CNIL" class="mx-auto mb-3 w-16 h-16 object-contain">
+                    <h3 class="certification-title text-xl font-bold text-gray-800 mb-1">RGPD CNIL 5</h3>
+                    <p class="text-gray-700 text-sm mb-3">Certification en conformité avec le Règlement Général sur la
+                        Protection des Données.</p>
+                    <p class="text-gray-600 text-sm italic mb-4">Obtention : Septembre 2024</p>
+                    <a href="src/files/Certificat_CNIL_5.pdf" target="_blank"
+                        class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:from-blue-500 hover:to-green-500 transition duration-300">Télécharger
+                        PDF</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <!-- Liens avec icônes et espacement ajusté -->
+            <div class="flex justify-center items-center space-x-8">
+                <a href="mailto:lucas.aveline@example.com" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-envelope mr-2"></i> Envoyer un mail
+                </a>
+                <a href="tel:+330123456789" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-phone-alt mr-2"></i> Appelez-moi
+                </a>
+                <a href="src/files/CV AVELINE LUCAS.pdf" target="_blank" class="flex items-center text-gray-800 hover:text-blue-500 transition mx-4">
+                    <i class="fas fa-file-alt mr-2"></i> Voir mon CV
+                </a>
+            </div>
+            <!-- Texte de copyright -->
+            <p class="text-gray-600 text-sm mt-6">
+                ©2024 LA SERVICES. Tous droits réservés. | Conçu par Lucas Aveline
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- FontAwesome for Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+</body>
+
+</html>

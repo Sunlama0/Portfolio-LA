@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Notation interactive</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="card rating">
+      <div class="card__icon">
+        <img src="images/icon-star.svg" alt="star icon" />
+      </div>
+
+      <div class="card__text">
+        <h1>Donner votre avis !</h1>
+        <p>
+          N'hésitez pas à nous faire part de votre avis. Tous les
+          commentaires sont les bienvenus pour nous aider à améliorer notre offre !
+        </p>
+      </div>
+
+      <form class="card__ratings">
+        <div class="card__rates">
+          <label for="rating__1">
+            <input type="radio" name="rating" id="rating__1" value="1" />
+            1
+          </label>
+          <label for="rating__2">
+            <input type="radio" name="rating" id="rating__2" value="2" />
+            2
+          </label>
+          <label for="rating__3">
+            <input type="radio" name="rating" id="rating__3" value="3" />
+            3
+          </label>
+          <label for="rating__4">
+            <input type="radio" name="rating" id="rating__4" value="4" />
+            4
+          </label>
+          <label for="rating__5">
+            <input type="radio" name="rating" id="rating__5" value="5" />
+            5
+          </label>
+        </div>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+
+    <div class="card thanks">
+      <div class="card__image">
+        <img src="images/illustration-thank-you.svg" alt="thanks image" />
+      </div>
+
+      <div class="card__rating">
+        <p>Vous avez sélectionné <output id="rating__score"></output> sur 5</p>
+      </div>
+
+      <div class="card__text">
+        <h2>Merci!</h2>
+        <p>
+          Nous vous remercions d'avoir pris le temps d'attribuer une note. Si vous avez besoin
+          plus de soutien, n'hésitez pas à nous contacter !
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    <p>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coder par <a
+        href="https://github.com/Sunlama0">Sunlama</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

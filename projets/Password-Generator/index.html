@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/queries.css ">
+  <title>Frontend Mentor | Générateur de mots de passe</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Générateur de mots de passe</h1>
+    <div class="password-field">
+      <span class="password-display">
+        <span class="password-placeholder">P4$5W0rD!</span>
+      </span>
+
+      <div class="copy-wrapper">
+        <span class="copied-text"></span>
+        <button class="copy-btn">
+          <img src="./assets/images/icon-copy.svg" alt="Copy password">
+        </button>
+      </div>
+    </div>
+
+    <form class="password-settings">
+      <div class="char-length">
+        <p>Nombres de caractères</p>
+        <span class="char-count">0</span>
+      </div>
+      <input class="char-length-slider" aria-label="Password length" type="range" min="1" max="20" value="10"
+        autocomplete="off" />
+
+      <div class="char-include-group">
+        <label>
+          <input type="checkbox" id="uppercase" value="uppercase" />
+          <span class="custom-checkbox"></span>
+          <p>Inclure des lettres majuscules</p>
+        </label>
+        <label>
+          <input type="checkbox" id="lowercase" value="lowercase" checked />
+          <span class="custom-checkbox"></span>
+          <p>Inclure des lettres minuscules</p>
+        </label>
+        <label>
+          <input type="checkbox" id="numbers" value="numbers" checked />
+          <span class="custom-checkbox"></span>
+          <p>Inclure des chiffres</p>
+        </label>
+        <label>
+          <input type="checkbox" id="symbols" value="symbols" />
+          <span class="custom-checkbox"></span>
+          <p>Inclure des symboles</p>
+        </label>
+      </div>
+
+      <div class="strength-box">
+        <span class="strength-label">Complexité</span>
+        <div class="strength-rating">
+          <span class="strength-rating-text"></span>
+          <div class="strength-rating-bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <button class="generate-btn" type="submit">
+        <span>Générer</span>
+        <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="#24232C" d="m5.106 12 6-6-6-6-1.265 1.265 3.841 3.84H.001v1.79h7.681l-3.841 3.84z" />
+        </svg>
+      </button>
+    </form>
+  </main>
+</body>
+<script src="./js/script.js"></script>
+
+</html>

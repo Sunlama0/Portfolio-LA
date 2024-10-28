@@ -1,0 +1,175 @@
+<!---------------------
+Projet Le Chat - Created by Lucas 
+---------------------->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>OhMyCats !</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="" class="navbar-brand">OhMyCats !</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section id="masthead">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Adoptez un chat trop bon !</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9 col-sm-push-3 col-xs-12">
+						<div id="carouselCats" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselCats" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselCats" data-slide-to="1"></li>
+								<li data-target="#carouselCats" data-slide-to="2"></li>
+								<li data-target="#carouselCats" data-slide-to="3"></li>
+								<li data-target="#carouselCats" data-slide-to="4"></li>
+							</ol>
+
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="img/chat_1.jpg" alt="Chat 1">
+									<div class="carousel-caption">
+										<h3>Sushi</h3>
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/chat_2.jpg" alt="Chat 2">
+									<div class="carousel-caption">
+										<h3>Maki</h3>
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/chat_3.jpg" alt="Chat 3">
+									<div class="carousel-caption">
+										<h3>Sashimi</h3>
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/chat_4.jpg" alt="Chat 4">
+									<div class="carousel-caption">
+										<h3>Yakitori</h3>
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/chat_5.jpg" alt="Chat 5">
+									<div class="carousel-caption">
+										<h3>Onigri</h3>
+									</div>
+								</div>
+							</div>
+
+							<a href="#carouselCats" class="left carousel-control" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Précédent</span>
+							</a>
+							<a href="#carouselCats" class="right carousel-control" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Suivant</span>
+							</a>
+						</div>
+					</div>
+					<aside class="col-sm-3 col-sm-pull-9 col-xs-12">
+						<h2>Les chats à adopter</h2>
+						<form id="requestCat" class="well well-sm">
+							<div class="form-group">
+								<label for="choice">Choix du chat :</label>
+								<select id="choice" name="choice" class="form-control input-sm">
+									<option value="">-- Sélectionnez --</option>
+									<option value="Sushi">Sushi</option>
+									<option value="Maki">Maki</option>
+									<option value="Sashimi">Sashimi</option>
+									<option value="Yakitori">Yakitori</option>
+									<option value="Onigri">Onigri</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="reason">Raison d'adoption :</label>
+								<textarea id="reason" name="reason" class="form-control" rows="10"
+									placeholder="Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat..."></textarea>
+							</div>
+							<div class="form-group">
+								<button type="button" class="btn btn-success btn-block" id="submitCat">Envoyer</button>
+							</div>
+						</form>
+						<div id="successMessage" style="display:none; margin-top:20px;" class="alert alert-success"
+							role="alert">
+							Votre demande a bien été envoyée ! <br>
+							Nous vous répondrons dans les meilleurs délais.
+						</div>
+						<div id="failureMessage" style="display:none; margin-top:20px;" class="alert alert-danger"
+							role="alert">
+							La raison de l'adoption doit contenir au moins 15 caractères.
+						</div>
+					</aside>
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-9">
+						<h2>Nos chats à adopter...</h2>
+						<p>Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum
+							ego idem antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae
+							necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia mea. Rei
+							publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem
+							gratulatio quae ex maximis bellis. Ergo ille cumulus dierum hominis est dignitati tributus.
+						</p>
+
+						<p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa
+							honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+							consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat
+							auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res
+							postulabit, et adhibitae pareatur.</p>
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<img src="img/tete-chat.png" alt="Tête de chat" class="img-responsive catHead">
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="container-fluid">
+		<p class="text-right">&copy; OhMyCats</p>
+	</footer>
+
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"
+		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
