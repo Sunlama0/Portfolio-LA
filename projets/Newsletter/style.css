@@ -135,3 +135,4 @@ button:hover{
     }
     
 }
+.main-container.is-success{width:min(440px,calc(100% - 32px));min-width:0;display:block;padding:30px;box-sizing:border-box}.newsletter-success h1{font-size:2.2rem}.newsletter-success p{line-height:1.7;overflow-wrap:anywhere}.newsletter-success button{width:100%;margin-top:20px}[aria-invalid=true]{outline:2px solid #be3939}#error{display:block;color:#be3939}

@@ -1,79 +1,16 @@
-const email = document.getElementById('email');
-const form = document.getElementById('form');
-const error = document.getElementById('error')
-var x = window.matchMedia("(min-width: 500px)")
-
-form.addEventListener('submit', (e) =>{
-    e.preventDefault();
-    validateInputs();
-})
-
-const errorMsg = (element, message) =>{
-    const errorDisplay = document.querySelector('#error')
-    errorDisplay.innerHTML = message;
-}
-
-const successMsg = (element, message) =>{
-    const successDisplay = document.querySelector("#error");
-    successDisplay.innerHTML = message;
-}
-
-const isValidEmail = email =>{
-    const re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    return re.test(String(email).toLowerCase())
-}
-
-const validateInputs = () =>{
-    const emailValue = email.value.trim();
-    const empty = ''
-    if(x.matches){
-        if(emailValue ===''){
-            errorMsg(email,"Field is empty")
-        }else if(!isValidEmail(emailValue)){
-            errorMsg(email, 'Provide correct email')
-        }else{
-            $(".left-container, ul, form").remove();
-            $("p").html("A confirmation email has been sent to <b>" + emailValue + "</b>. Please open it and click the button inside to confirm your subscription.");
-            $("h1").text("Thanks for subscribing!");
-            document.querySelector('.main-container').style.minWidth = "0px";
-            document.querySelector('.main-container').style.width = "400px";
-            document.querySelector('.right-container').style.width = "100%";
-    
-            const newImg = document.createElement("img");
-            newImg.style.width = "50px"
-            newImg.src = "./assets/images/icon-success.svg"
-            const fc = document.querySelector(".right-container").firstChild;
-            document.querySelector(".right-container").insertBefore(newImg,fc);
-            
-            const newButton = document.createElement("button")
-            const text = document.createTextNode("Dismiss message");
-            newButton.style.width = "100%"
-            newButton.appendChild(text)
-            document.querySelector(".right-container").appendChild(newButton)
-        }
-    }else{
-        if(emailValue ===''){
-            errorMsg(email,"Field is empty")
-        }else if(!isValidEmail(emailValue)){
-            errorMsg(email, 'Provide correct email')
-        }else{
-            $(".left-container, ul, form").remove();
-            $("p").html("A confirmation email has been sent to <b>" + emailValue + "</b>. Please open it and click the button inside to confirm your subscription.");
-            $("h1").text("Thanks for subscribing!");
-            document.querySelector('body').style.height = "600px";
-
-            const newImg = document.createElement("img");
-            newImg.style.width = "50px"
-            newImg.src = "./assets/images/icon-success.svg"
-            const fc = document.querySelector(".right-container").firstChild;
-            document.querySelector(".right-container").insertBefore(newImg,fc);
-            
-            const newButton = document.createElement("button")
-            const text = document.createTextNode("Dismiss message");
-            newButton.style.width = "100%"
-            newButton.appendChild(text)
-            document.querySelector(".right-container").appendChild(newButton)
-        }
-    }
-    
-}
+const form=document.querySelector('#form');
+const email=document.querySelector('#email');
+const error=document.querySelector('#error');
+const container=document.querySelector('.main-container');
+const original=[...container.children];
+form.noValidate=true;
+form.addEventListener('submit',event=>{
+ event.preventDefault();
+ if(!email.value.trim()||!email.validity.valid){error.textContent='Saisissez une adresse e-mail valide.';email.setAttribute('aria-invalid','true');email.focus();return;}
+ error.textContent='';email.removeAttribute('aria-invalid');
+ const panel=document.createElement('section');panel.className='newsletter-success';
+ const title=document.createElement('h1');title.textContent='Démo réussie !';title.tabIndex=-1;
+ const text=document.createElement('p');text.textContent=`L’adresse ${email.value.trim()} a été validée. Il s’agit d’une démonstration : aucun e-mail n’est envoyé et aucune inscription n’est enregistrée.`;
+ const back=document.createElement('button');back.type='button';back.textContent='Essayer à nouveau';back.addEventListener('click',()=>{container.replaceChildren(...original);container.classList.remove('is-success');form.reset();email.focus();});
+ panel.append(title,text,back);container.replaceChildren(panel);container.classList.add('is-success');title.focus();
+});

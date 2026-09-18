@@ -131,4 +131,4 @@ span .error {
     color: var(--Light-Red);
     font-size: 0.7rem;
     font-weight: 700;
-}
+}.btn{border:0;cursor:pointer;font:inherit}.btn:focus-visible{outline:3px solid #854dff;outline-offset:5px}
