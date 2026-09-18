@@ -10,9 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Newsletter</title>
 
+<link rel="stylesheet" href="../../src/demo-navigation.css">
 </head>
 
 <body>
+<a class="portfolio-demo-back" href="../../pages/jeux.html">← Retour aux jeux & autres</a>
   <div class="main-container">
     <div class="right-container">
       <h1>Restez informé</h1>
@@ -29,9 +31,9 @@
       </ul>
 
       <form id="form" action="/" method="GET">
-        <span id="error"></span>
+        <span id="error" role="alert"></span>
         <label for="email">Adresse Mail </label>
-        <input type="text" id="email" name="email" placeholder="lucas.aveline@la-services.fr">
+        <input type="email" required autocomplete="email" aria-describedby="error" id="email" name="email" placeholder="lucas.aveline@la-services.fr">
         <button type="submit">S'abonner à la newsletter mensuelle</button>
       </form>
     </div>
@@ -41,7 +43,7 @@
     </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
   <script src="./index.js"></script>
 
 </body>
