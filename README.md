@@ -40,3 +40,9 @@ Pages et liens locaux, séparation des 4 réalisations/10 expériences interacti
 Le site utilise des chemins relatifs pour GitHub Pages ou un sous-répertoire. Les dix démos conservent leur style original. Certains exemples historiques dépendent de CDN ; la ToDoList Laravel conserve son lien d’hébergement externe.
 
 La navigation comprend un accès direct au CV 2026, un état actif et un menu mobile. NexSecure est présenté sur l’accueil, la page Contact et l’expérience entrepreneuriale, avec liens vers https://nexsecure.fr/.
+
+## Référencement
+
+Le domaine public est défini dans `site.config.json` : `https://lucasaveline.fr/`. `SITE_URL` peut le remplacer lors de la compilation. `npm run build` régénère le sitemap des sept pages principales, robots.txt, les balises canoniques, descriptions uniques, Open Graph, Twitter Card et données structurées JSON-LD. La page historique de projets de formation est en noindex ; les démos restent accessibles depuis leur galerie.
+
+Publier `robots.txt` et `sitemap.xml` à la racine du domaine. Configurer l’hébergeur pour servir `404.html` avec un vrai statut HTTP 404 ; GitHub Pages le gère nativement. Soumettre ensuite `https://lucasaveline.fr/sitemap.xml` dans Google Search Console. Ces fichiers ne configurent ni le DNS ni le certificat HTTPS et ne garantissent pas l’indexation.
