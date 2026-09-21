@@ -21,16 +21,16 @@ try{
  }
  await page.setViewportSize({width:1440,height:1000});
  await page.goto(base+'pages/realisations.html');
- await expect(page.locator('.project-card:visible')).toHaveCount(6);
+ await expect(page.locator('.project-card:visible')).toHaveCount(7);
  await page.getByRole('button',{name:'Applications',exact:true}).click();
- await expect(page.locator('.project-card:visible')).toHaveCount(5);
+ await expect(page.locator('.project-card:visible')).toHaveCount(6);
  await page.getByRole('button',{name:'Tout voir',exact:true}).click();
  await page.getByRole('searchbox').fill('laravel');
  await expect(page.locator('.project-card:visible')).toHaveCount(1);
  await page.getByRole('searchbox').fill('introuvable123');
  await expect(page.locator('.empty-state')).toBeVisible();
  await page.getByRole('button',{name:'Tout afficher'}).click();
- await expect(page.locator('.project-card:visible')).toHaveCount(6);
+ await expect(page.locator('.project-card:visible')).toHaveCount(7);
  await page.locator('[data-project="crm"]').click();
  await expect(page.locator('dialog')).toBeVisible();
  await page.keyboard.press('Escape');await expect(page.locator('dialog')).not.toBeVisible();
@@ -95,5 +95,5 @@ try{
  }
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'.playwright/home-mobile-v3.png',fullPage:true});
  assert.deepEqual(errors,[]);
- console.log('OK : 8 pages, 6 réalisations, 10 expériences interactives, 10 démos, 4 formations, 6 expériences/engagements, 24 articles, thèmes clair/sombre persistants, documents, filtres/recherche, navigation, modale, 4 tailles d’écran, interactions morpion/QCM/générateur/FAQ/notation.');
+ console.log('OK : 8 pages, 7 réalisations, 10 expériences interactives, 10 démos, 4 formations, 6 expériences/engagements, 24 articles, thèmes clair/sombre persistants, documents, filtres/recherche, navigation, modale, 4 tailles d’écran, interactions morpion/QCM/générateur/FAQ/notation.');
 }finally{await browser.close();server?.kill();}
