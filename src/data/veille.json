@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-09-21T12:55:54.381688+00:00",
+  "checkedAt": "2026-09-22T11:45:15.724219+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-21T12:55:54.381688+00:00"
+      "lastSuccessAt": "2026-09-22T11:45:15.724219+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-21T12:55:54.381688+00:00"
+      "lastSuccessAt": "2026-09-22T11:45:15.724219+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-09-21T12:55:54.381688+00:00"
+      "lastSuccessAt": "2026-09-22T11:45:15.724219+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Python Workers are now generally available",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "publishedAt": "2026-09-21T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Saving another 100TB of RAM with math (and Rust)",
       "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
@@ -127,15 +136,6 @@
       "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
       "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
       "publishedAt": "2026-09-09T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-      "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-      "publishedAt": "2026-09-08T13:10:00+00:00",
       "source": "Cloudflare Blog",
       "sourceId": "cloudflare",
       "category": "Cloud & sécurité",
