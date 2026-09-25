@@ -1,29 +1,56 @@
 {
-  "checkedAt": "2026-09-24T11:53:07.253136+00:00",
+  "checkedAt": "2026-09-25T11:56:02.592103+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-24T11:53:07.253136+00:00"
+      "lastSuccessAt": "2026-09-25T11:56:02.592103+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-24T11:53:07.253136+00:00"
+      "lastSuccessAt": "2026-09-25T11:56:02.592103+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-09-24T11:53:07.253136+00:00"
+      "lastSuccessAt": "2026-09-25T11:56:02.592103+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "publishedAt": "2026-09-24T20:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "publishedAt": "2026-09-24T18:26:12+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+      "publishedAt": "2026-09-24T15:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Rendering huge pull requests in the GitHub Copilot app",
       "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
@@ -34,7 +61,7 @@
       "context": "Outils de développement, collaboration et intelligence artificielle."
     },
     {
-      "title": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
+      "title": "Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.",
       "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
       "publishedAt": "2026-09-23T13:00:00+00:00",
       "source": "GitHub Blog",
@@ -133,36 +160,9 @@
       "context": "Outils de développement, collaboration et intelligence artificielle."
     },
     {
-      "title": "Introducing automatic remediation policies with Cloudflare CASB",
-      "url": "https://blog.cloudflare.com/casb-policies/",
-      "publishedAt": "2026-09-11T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
       "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
       "publishedAt": "2026-09-10T21:31:19+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "GitHub availability report: August 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "publishedAt": "2026-09-10T02:05:17+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "publishedAt": "2026-09-04T16:04:14+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
