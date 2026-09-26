@@ -1,29 +1,56 @@
 {
-  "checkedAt": "2026-09-25T11:56:02.592103+00:00",
+  "checkedAt": "2026-09-26T11:30:19.652276+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-25T11:56:02.592103+00:00"
+      "lastSuccessAt": "2026-09-26T11:30:19.652276+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-25T11:56:02.592103+00:00"
+      "lastSuccessAt": "2026-09-26T11:30:19.652276+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-09-25T11:56:02.592103+00:00"
+      "lastSuccessAt": "2026-09-26T11:30:19.652276+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "publishedAt": "2026-09-25T18:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "publishedAt": "2026-09-25T15:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Agents can now set up your website’s security with Turnstile Spin",
+      "url": "https://blog.cloudflare.com/turnstile-spin/",
+      "publishedAt": "2026-09-25T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "When chat is the wrong UI",
       "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
@@ -140,33 +167,6 @@
       "sourceId": "cloudflare",
       "category": "Cloud & sécurité",
       "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Give every teammate and agent the right level of access to your Workers",
-      "url": "https://blog.cloudflare.com/workers-granular-authorization/",
-      "publishedAt": "2026-09-15T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-      "publishedAt": "2026-09-11T18:26:10+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-      "publishedAt": "2026-09-10T21:31:19+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
     },
     {
       "title": "Introducing the MDN MCP server",
