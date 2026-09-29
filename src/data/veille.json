@@ -1,29 +1,74 @@
 {
-  "checkedAt": "2026-09-28T14:04:07.537305+00:00",
+  "checkedAt": "2026-09-29T12:59:56.631930+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-28T14:04:07.537305+00:00"
+      "lastSuccessAt": "2026-09-29T12:59:56.631930+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-28T14:04:07.537305+00:00"
+      "lastSuccessAt": "2026-09-29T12:59:56.631930+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-09-28T14:04:07.537305+00:00"
+      "lastSuccessAt": "2026-09-29T12:59:56.631930+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "publishedAt": "2026-09-28T19:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Highlights from Git 2.56",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "publishedAt": "2026-09-28T17:23:33+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "publishedAt": "2026-09-28T15:50:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+      "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+      "publishedAt": "2026-09-28T14:51:57+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+      "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
+      "publishedAt": "2026-09-28T14:43:05+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
       "url": "https://blog.cloudflare.com/voidzero-update/",
@@ -70,24 +115,6 @@
       "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
-      "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
-      "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
-      "publishedAt": "2026-09-28T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Cloudflare’s 2026 Annual Founders’ Letter",
-      "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
-      "publishedAt": "2026-09-27T17:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
       "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
       "publishedAt": "2026-09-25T18:00:00+00:00",
@@ -104,15 +131,6 @@
       "sourceId": "github",
       "category": "Outils & IA",
       "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Agents can now set up your website’s security with Turnstile Spin",
-      "url": "https://blog.cloudflare.com/turnstile-spin/",
-      "publishedAt": "2026-09-25T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
       "title": "When chat is the wrong UI",
@@ -145,24 +163,6 @@
       "title": "Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.",
       "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
       "publishedAt": "2026-09-23T13:00:00+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-      "publishedAt": "2026-09-18T15:00:00+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-      "publishedAt": "2026-09-17T00:26:43+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
