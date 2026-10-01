@@ -1,29 +1,101 @@
 {
-  "checkedAt": "2026-09-30T12:42:36.098942+00:00",
+  "checkedAt": "2026-10-01T13:25:32.347759+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-30T12:42:36.098942+00:00"
+      "lastSuccessAt": "2026-10-01T13:25:32.347759+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-09-30T12:42:36.098942+00:00"
+      "lastSuccessAt": "2026-10-01T13:25:32.347759+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-09-30T12:42:36.098942+00:00"
+      "lastSuccessAt": "2026-10-01T13:25:32.347759+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "One year later: Sovereign AI and the fight for choice",
+      "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+      "publishedAt": "2026-10-01T13:04:19+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Introducing Workers KV Instant — powered by Quicksilver",
+      "url": "https://blog.cloudflare.com/workers-kv-instant/",
+      "publishedAt": "2026-10-01T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+      "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+      "publishedAt": "2026-10-01T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Announcing Cloudflare K2: serverless event streams",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "publishedAt": "2026-10-01T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "publishedAt": "2026-10-01T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "AI Search is now generally available",
+      "url": "https://blog.cloudflare.com/ai-search-ga/",
+      "publishedAt": "2026-10-01T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Support for modern cryptographic algorithms in Workers",
+      "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+      "publishedAt": "2026-10-01T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+      "url": "https://blog.cloudflare.com/cloudflare-basin/",
+      "publishedAt": "2026-10-01T12:58:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Developer policy update: Transparency, state policy, and what’s ahead",
       "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
@@ -32,78 +104,6 @@
       "sourceId": "github",
       "category": "Outils & IA",
       "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Using AI to chart a course for our post-quantum migration",
-      "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Building a certificate authority for the whole Internet",
-      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
-      "url": "https://blog.cloudflare.com/ai-era-framework/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
-      "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "We tested our own WAF with frontier AI models. Here’s what we found",
-      "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
-      "url": "https://blog.cloudflare.com/threat-signals/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
-      "url": "https://blog.cloudflare.com/post-quantum-visibility/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Enforce positive security with Cloudflare Application Profiles",
-      "url": "https://blog.cloudflare.com/application-profiles/",
-      "publishedAt": "2026-09-29T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
       "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
