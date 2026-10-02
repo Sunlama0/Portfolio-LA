@@ -1,29 +1,47 @@
 {
-  "checkedAt": "2026-10-01T13:25:32.347759+00:00",
+  "checkedAt": "2026-10-02T12:44:00.115978+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-01T13:25:32.347759+00:00"
+      "lastSuccessAt": "2026-10-02T12:44:00.115978+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-01T13:25:32.347759+00:00"
+      "lastSuccessAt": "2026-10-02T12:44:00.115978+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-01T13:25:32.347759+00:00"
+      "lastSuccessAt": "2026-10-02T12:44:00.115978+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "publishedAt": "2026-10-01T15:34:02+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "publishedAt": "2026-10-01T15:07:16+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "One year later: Sovereign AI and the fight for choice",
       "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
@@ -88,15 +106,6 @@
       "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
-      "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
-      "url": "https://blog.cloudflare.com/cloudflare-basin/",
-      "publishedAt": "2026-10-01T12:58:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "Developer policy update: Transparency, state policy, and what’s ahead",
       "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
       "publishedAt": "2026-09-29T15:00:00+00:00",
@@ -154,15 +163,6 @@
       "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
       "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
       "publishedAt": "2026-09-24T18:26:12+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Rendering huge pull requests in the GitHub Copilot app",
-      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
-      "publishedAt": "2026-09-23T18:29:49+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
