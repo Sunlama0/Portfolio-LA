@@ -1,29 +1,47 @@
 {
-  "checkedAt": "2026-10-06T13:23:14.898800+00:00",
+  "checkedAt": "2026-10-07T13:31:41.816774+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-06T13:23:14.898800+00:00"
+      "lastSuccessAt": "2026-10-07T13:31:41.816774+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-06T13:23:14.898800+00:00"
+      "lastSuccessAt": "2026-10-07T13:31:41.816774+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-06T13:23:14.898800+00:00"
+      "lastSuccessAt": "2026-10-07T13:31:41.816774+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Building Git infrastructure for agent-scale development",
+      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+      "publishedAt": "2026-10-06T20:57:56+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "The keys to the Internet change on October 11. Are you ready?",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+      "publishedAt": "2026-10-06T17:50:11+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "ReviewBench: An open benchmark for AI code review",
       "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
@@ -106,15 +124,6 @@
       "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
-      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "publishedAt": "2026-10-02T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "10 technical talks I’m excited about at GitHub Universe 2026",
       "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
       "publishedAt": "2026-10-01T15:07:16+00:00",
@@ -154,15 +163,6 @@
       "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
       "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
       "publishedAt": "2026-09-25T18:00:00+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Improving site performance by shipping more CSS",
-      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
-      "publishedAt": "2026-09-25T15:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
