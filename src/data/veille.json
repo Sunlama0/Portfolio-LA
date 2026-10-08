@@ -1,29 +1,56 @@
 {
-  "checkedAt": "2026-10-07T13:31:41.816774+00:00",
+  "checkedAt": "2026-10-08T13:37:38.920314+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-07T13:31:41.816774+00:00"
+      "lastSuccessAt": "2026-10-08T13:37:38.920314+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-07T13:31:41.816774+00:00"
+      "lastSuccessAt": "2026-10-08T13:37:38.920314+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-07T13:31:41.816774+00:00"
+      "lastSuccessAt": "2026-10-08T13:37:38.920314+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+      "url": "https://blog.cloudflare.com/radar-redesign/",
+      "publishedAt": "2026-10-08T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Secret protection must scale with software",
+      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+      "publishedAt": "2026-10-07T17:45:34+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "url": "https://blog.cloudflare.com/agentic-security-operations/",
+      "publishedAt": "2026-10-07T16:30:36+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Building Git infrastructure for agent-scale development",
       "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
@@ -106,24 +133,6 @@
       "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
-      "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
-      "url": "https://blog.cloudflare.com/cloudflare-tracing/",
-      "publishedAt": "2026-10-02T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-      "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-      "publishedAt": "2026-10-02T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "10 technical talks I’m excited about at GitHub Universe 2026",
       "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
       "publishedAt": "2026-10-01T15:07:16+00:00",
@@ -154,15 +163,6 @@
       "title": "Highlights from Git 2.56",
       "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
       "publishedAt": "2026-09-28T17:23:33+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-      "publishedAt": "2026-09-25T18:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
