@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-10-11T12:58:09.130899+00:00",
+  "checkedAt": "2026-10-12T15:36:10.365425+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-11T12:58:09.130899+00:00"
+      "lastSuccessAt": "2026-10-12T15:36:10.365425+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-11T12:58:09.130899+00:00"
+      "lastSuccessAt": "2026-10-12T15:36:10.365425+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-11T12:58:09.130899+00:00"
+      "lastSuccessAt": "2026-10-12T15:36:10.365425+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Filter, reshape, and redact logs before export with Transformers",
+      "url": "https://blog.cloudflare.com/transformers-on-logpush/",
+      "publishedAt": "2026-10-12T14:44:59+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
       "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
@@ -126,15 +135,6 @@
     {
       "title": "Everything we launched during Birthday Week 2026",
       "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-      "publishedAt": "2026-10-05T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
       "publishedAt": "2026-10-05T13:00:00+00:00",
       "source": "Cloudflare Blog",
       "sourceId": "cloudflare",
