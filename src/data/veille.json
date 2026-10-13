@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-10-12T15:36:10.365425+00:00",
+  "checkedAt": "2026-10-13T14:18:20.095696+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-12T15:36:10.365425+00:00"
+      "lastSuccessAt": "2026-10-13T14:18:20.095696+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-12T15:36:10.365425+00:00"
+      "lastSuccessAt": "2026-10-13T14:18:20.095696+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-12T15:36:10.365425+00:00"
+      "lastSuccessAt": "2026-10-13T14:18:20.095696+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "publishedAt": "2026-10-12T17:43:59+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "Filter, reshape, and redact logs before export with Transformers",
       "url": "https://blog.cloudflare.com/transformers-on-logpush/",
@@ -154,15 +163,6 @@
       "title": "10 technical talks I’m excited about at GitHub Universe 2026",
       "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
       "publishedAt": "2026-10-01T15:07:16+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
-      "publishedAt": "2026-09-29T15:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
