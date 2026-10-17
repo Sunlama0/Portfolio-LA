@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-10-16T11:31:15.345437+00:00",
+  "checkedAt": "2026-10-17T10:50:59.384618+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-16T11:31:15.345437+00:00"
+      "lastSuccessAt": "2026-10-17T10:50:59.384618+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-16T11:31:15.345437+00:00"
+      "lastSuccessAt": "2026-10-17T10:50:59.384618+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-16T11:31:15.345437+00:00"
+      "lastSuccessAt": "2026-10-17T10:50:59.384618+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Continuous accountability for Verified bots",
+      "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+      "publishedAt": "2026-10-16T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "The next developer interface is ambient intelligence",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
@@ -140,15 +149,6 @@
       "sourceId": "github",
       "category": "Outils & IA",
       "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Filter, reshape, and redact logs before export with Transformers",
-      "url": "https://blog.cloudflare.com/transformers-on-logpush/",
-      "publishedAt": "2026-10-12T14:44:59+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
       "title": "Hack the World: Why hackathons are still the best place to learn to build",
