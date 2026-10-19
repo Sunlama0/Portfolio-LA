@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-10-18T11:15:23.684231+00:00",
+  "checkedAt": "2026-10-19T13:27:31.394142+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-18T11:15:23.684231+00:00"
+      "lastSuccessAt": "2026-10-19T13:27:31.394142+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-18T11:15:23.684231+00:00"
+      "lastSuccessAt": "2026-10-19T13:27:31.394142+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-18T11:15:23.684231+00:00"
+      "lastSuccessAt": "2026-10-19T13:27:31.394142+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "publishedAt": "2026-10-19T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Continuous accountability for Verified bots",
       "url": "https://blog.cloudflare.com/verified-bots-accountability/",
@@ -127,15 +136,6 @@
       "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
       "url": "https://blog.cloudflare.com/d1-control-plane/",
       "publishedAt": "2026-10-13T16:20:18+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Rewinding the exponential: How we keep hardware usage down",
-      "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
-      "publishedAt": "2026-10-13T15:51:41+00:00",
       "source": "Cloudflare Blog",
       "sourceId": "cloudflare",
       "category": "Cloud & sécurité",
