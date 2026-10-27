@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-10-26T13:11:52.012826+00:00",
+  "checkedAt": "2026-10-27T12:19:51.782813+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-26T13:11:52.012826+00:00"
+      "lastSuccessAt": "2026-10-27T12:19:51.782813+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-26T13:11:52.012826+00:00"
+      "lastSuccessAt": "2026-10-27T12:19:51.782813+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-26T13:11:52.012826+00:00"
+      "lastSuccessAt": "2026-10-27T12:19:51.782813+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "publishedAt": "2026-10-26T22:01:23+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Origin Range Requests: Serving large files without range-request tuning",
       "url": "https://blog.cloudflare.com/origin-range-requests/",
@@ -113,15 +122,6 @@
       "sourceId": "github",
       "category": "Outils & IA",
       "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Introducing tsrs: A port of TypeScript to Rust",
-      "url": "https://blog.cloudflare.com/typescript-rust-port/",
-      "publishedAt": "2026-10-20T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
       "title": "How to continue a GitHub Copilot app session in VS Code",
