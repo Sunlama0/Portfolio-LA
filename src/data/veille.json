@@ -1,29 +1,56 @@
 {
-  "checkedAt": "2026-10-28T13:03:26.561609+00:00",
+  "checkedAt": "2026-10-29T13:10:43.339979+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-28T13:03:26.561609+00:00"
+      "lastSuccessAt": "2026-10-29T13:10:43.339979+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-28T13:03:26.561609+00:00"
+      "lastSuccessAt": "2026-10-29T13:10:43.339979+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-10-28T13:03:26.561609+00:00"
+      "lastSuccessAt": "2026-10-29T13:10:43.339979+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+      "publishedAt": "2026-10-29T12:55:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "publishedAt": "2026-10-28T16:09:28+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "publishedAt": "2026-10-28T16:07:40+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
       "url": "https://blog.cloudflare.com/php-ctf/",
@@ -106,15 +133,6 @@
       "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
-      "title": "Cloudflare deploys protections against php2shell vulnerability",
-      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-      "publishedAt": "2026-10-21T13:56:45+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
       "publishedAt": "2026-10-20T16:05:03+00:00",
@@ -145,24 +163,6 @@
       "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
       "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
       "publishedAt": "2026-10-15T18:00:00+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "GitHub availability report: September 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
-      "publishedAt": "2026-10-14T20:01:35+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
-      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
-      "publishedAt": "2026-10-14T19:11:33+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
