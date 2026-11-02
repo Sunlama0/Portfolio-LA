@@ -1,29 +1,47 @@
 {
-  "checkedAt": "2026-11-01T13:32:05.703181+00:00",
+  "checkedAt": "2026-11-02T16:06:25.815709+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-01T13:32:05.703181+00:00"
+      "lastSuccessAt": "2026-11-02T16:06:25.815709+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-01T13:32:05.703181+00:00"
+      "lastSuccessAt": "2026-11-02T16:06:25.815709+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-01T13:32:05.703181+00:00"
+      "lastSuccessAt": "2026-11-02T16:06:25.815709+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "How we halved DNS build delay and cut memory use by 85%",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "publishedAt": "2026-11-02T14:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "Game Off 2026: The theme is SHIFT",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "publishedAt": "2026-11-01T21:36:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
       "url": "https://blog.cloudflare.com/emudhra-patching/",
@@ -106,15 +124,6 @@
       "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
-      "title": "Bringing post-quantum cryptography to geographically fenced key management",
-      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-      "publishedAt": "2026-10-23T18:06:56+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "How bug bounty sharpens one researcher’s security skills",
       "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
       "publishedAt": "2026-10-22T17:21:30+00:00",
@@ -154,15 +163,6 @@
       "title": "The next developer interface is ambient intelligence",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "publishedAt": "2026-10-15T19:39:27+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
-      "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
-      "publishedAt": "2026-10-15T18:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
