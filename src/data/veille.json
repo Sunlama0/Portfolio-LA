@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-11-06T14:22:39.249985+00:00",
+  "checkedAt": "2026-11-07T13:11:26.421750+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-06T14:22:39.249985+00:00"
+      "lastSuccessAt": "2026-11-07T13:11:26.421750+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-06T14:22:39.249985+00:00"
+      "lastSuccessAt": "2026-11-07T13:11:26.421750+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-06T14:22:39.249985+00:00"
+      "lastSuccessAt": "2026-11-07T13:11:26.421750+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "publishedAt": "2026-11-06T22:15:59+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "The post-quantum future of web privacy",
       "url": "https://blog.cloudflare.com/vole-mole/",
@@ -154,15 +163,6 @@
       "title": "How bug bounty sharpens one researcher’s security skills",
       "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
       "publishedAt": "2026-10-22T17:21:30+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "The bridge to agent-scale Git infrastructure",
-      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-      "publishedAt": "2026-10-21T16:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
