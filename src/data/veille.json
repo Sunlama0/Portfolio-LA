@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-11-09T16:29:56.104303+00:00",
+  "checkedAt": "2026-11-10T14:58:28.117482+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-09T16:29:56.104303+00:00"
+      "lastSuccessAt": "2026-11-10T14:58:28.117482+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-09T16:29:56.104303+00:00"
+      "lastSuccessAt": "2026-11-10T14:58:28.117482+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-09T16:29:56.104303+00:00"
+      "lastSuccessAt": "2026-11-10T14:58:28.117482+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Launching the Vite Ecosystem Fund",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+      "publishedAt": "2026-11-09T13:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "Beyond code generation: A developer’s guide to agentic engineering",
       "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
@@ -70,7 +79,7 @@
       "context": "Outils de développement, collaboration et intelligence artificielle."
     },
     {
-      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "title": "See the agents, set the terms: New visibility and control for personal agents",
       "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
       "publishedAt": "2026-11-04T14:00:00+00:00",
       "source": "Cloudflare Blog",
@@ -127,15 +136,6 @@
       "title": "Cloudflare services for private origins is now generally available",
       "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
       "publishedAt": "2026-10-30T14:23:43+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-      "publishedAt": "2026-10-29T12:55:00+00:00",
       "source": "Cloudflare Blog",
       "sourceId": "cloudflare",
       "category": "Cloud & sécurité",
