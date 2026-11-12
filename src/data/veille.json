@@ -1,32 +1,32 @@
 {
-  "checkedAt": "2026-11-11T14:29:02.048755+00:00",
+  "checkedAt": "2026-11-12T15:21:32.053324+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T14:29:02.048755+00:00"
+      "lastSuccessAt": "2026-11-12T15:21:32.053324+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T14:29:02.048755+00:00"
+      "lastSuccessAt": "2026-11-12T15:21:32.053324+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T14:29:02.048755+00:00"
+      "lastSuccessAt": "2026-11-12T15:21:32.053324+00:00"
     }
   ],
   "articles": [
     {
       "title": "Choosing QuePaxa, an unusual consensus algorithm",
-      "url": "https://blog.cloudflare.com/choosing-quepaxa1/",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
       "publishedAt": "2026-11-11T14:24:46+00:00",
       "source": "Cloudflare Blog",
       "sourceId": "cloudflare",
