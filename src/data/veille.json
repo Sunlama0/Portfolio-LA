@@ -1,29 +1,56 @@
 {
-  "checkedAt": "2026-11-12T15:21:32.053324+00:00",
+  "checkedAt": "2026-11-13T14:40:11.482019+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T15:21:32.053324+00:00"
+      "lastSuccessAt": "2026-11-13T14:40:11.482019+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T15:21:32.053324+00:00"
+      "lastSuccessAt": "2026-11-13T14:40:11.482019+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T15:21:32.053324+00:00"
+      "lastSuccessAt": "2026-11-13T14:40:11.482019+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "publishedAt": "2026-11-13T14:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "publishedAt": "2026-11-13T00:20:16+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "publishedAt": "2026-11-12T22:54:52+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "Choosing QuePaxa, an unusual consensus algorithm",
       "url": "https://blog.cloudflare.com/choosing-quepaxa/",
@@ -136,33 +163,6 @@
       "title": "Game Off 2026: The theme is SHIFT",
       "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
       "publishedAt": "2026-11-01T21:36:00+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-      "url": "https://blog.cloudflare.com/emudhra-patching/",
-      "publishedAt": "2026-10-30T17:38:50+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
-      "title": "GitHub Universe 2026: Evolving every layer of the stack",
-      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-      "publishedAt": "2026-10-28T16:09:28+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-      "publishedAt": "2026-10-28T16:07:40+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
