@@ -1,29 +1,47 @@
 {
-  "checkedAt": "2026-11-18T15:44:57.442229+00:00",
+  "checkedAt": "2026-11-19T15:50:14.880761+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-18T15:44:57.442229+00:00"
+      "lastSuccessAt": "2026-11-19T15:50:14.880761+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-18T15:44:57.442229+00:00"
+      "lastSuccessAt": "2026-11-19T15:50:14.880761+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-18T15:44:57.442229+00:00"
+      "lastSuccessAt": "2026-11-19T15:50:14.880761+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+      "publishedAt": "2026-11-19T14:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "url": "https://blog.cloudflare.com/open-clairic/",
+      "publishedAt": "2026-11-18T22:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
       "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
@@ -124,15 +142,6 @@
       "context": "Outils de développement, collaboration et intelligence artificielle."
     },
     {
-      "title": "Launching the Vite Ecosystem Fund",
-      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
-      "publishedAt": "2026-11-09T13:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "Beyond code generation: A developer’s guide to agentic engineering",
       "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
       "publishedAt": "2026-11-06T22:15:59+00:00",
@@ -140,15 +149,6 @@
       "sourceId": "github",
       "category": "Outils & IA",
       "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "The post-quantum future of web privacy",
-      "url": "https://blog.cloudflare.com/vole-mole/",
-      "publishedAt": "2026-11-06T14:00:00+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
       "title": "Inside GitHub’s new Git storage architecture",
