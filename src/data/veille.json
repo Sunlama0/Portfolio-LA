@@ -1,29 +1,47 @@
 {
-  "checkedAt": "2026-11-19T15:50:14.880761+00:00",
+  "checkedAt": "2026-11-20T15:32:45.917824+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T15:50:14.880761+00:00"
+      "lastSuccessAt": "2026-11-20T15:32:45.917824+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T15:50:14.880761+00:00"
+      "lastSuccessAt": "2026-11-20T15:32:45.917824+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T15:50:14.880761+00:00"
+      "lastSuccessAt": "2026-11-20T15:32:45.917824+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "url": "https://blog.cloudflare.com/nginx2root/",
+      "publishedAt": "2026-11-20T01:58:29+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
+    {
+      "title": "The best things in open source are built together",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "publishedAt": "2026-11-19T16:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
       "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
@@ -124,15 +142,6 @@
       "context": "Outils de développement, collaboration et intelligence artificielle."
     },
     {
-      "title": "Choosing QuePaxa, an unusual consensus algorithm",
-      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
-      "publishedAt": "2026-11-11T14:24:46+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "Git security vulnerabilities announced",
       "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
       "publishedAt": "2026-11-10T18:00:00+00:00",
@@ -154,15 +163,6 @@
       "title": "Inside GitHub’s new Git storage architecture",
       "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
       "publishedAt": "2026-11-05T20:23:21+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Accessibility statements now have a home on GitHub",
-      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
-      "publishedAt": "2026-11-05T16:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
