@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-11-22T14:40:09.007096+00:00",
+  "checkedAt": "2026-11-23T18:20:06.402315+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-22T14:40:09.007096+00:00"
+      "lastSuccessAt": "2026-11-23T18:20:06.402315+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-22T14:40:09.007096+00:00"
+      "lastSuccessAt": "2026-11-23T18:20:06.402315+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-22T14:40:09.007096+00:00"
+      "lastSuccessAt": "2026-11-23T18:20:06.402315+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Probing DNS at Cloudflare",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "publishedAt": "2026-11-23T14:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
       "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
@@ -113,15 +122,6 @@
       "sourceId": "github",
       "category": "Outils & IA",
       "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Kitesurf is now open source",
-      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
-      "publishedAt": "2026-11-13T20:20:21+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
       "title": "GitHub availability report: October 2026",
