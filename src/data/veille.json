@@ -1,29 +1,38 @@
 {
-  "checkedAt": "2026-11-23T18:20:06.402315+00:00",
+  "checkedAt": "2026-11-24T17:52:22.990746+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-23T18:20:06.402315+00:00"
+      "lastSuccessAt": "2026-11-24T17:52:22.990746+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-23T18:20:06.402315+00:00"
+      "lastSuccessAt": "2026-11-24T17:52:22.990746+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-23T18:20:06.402315+00:00"
+      "lastSuccessAt": "2026-11-24T17:52:22.990746+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "These are the gifts developers will actually want",
+      "url": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
+      "publishedAt": "2026-11-24T16:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
     {
       "title": "Probing DNS at Cloudflare",
       "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
@@ -154,15 +163,6 @@
       "title": "Beyond code generation: A developer’s guide to agentic engineering",
       "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
       "publishedAt": "2026-11-06T22:15:59+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Inside GitHub’s new Git storage architecture",
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "publishedAt": "2026-11-05T20:23:21+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
