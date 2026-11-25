@@ -1,29 +1,47 @@
 {
-  "checkedAt": "2026-11-24T17:52:22.990746+00:00",
+  "checkedAt": "2026-11-25T17:19:44.789279+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-24T17:52:22.990746+00:00"
+      "lastSuccessAt": "2026-11-25T17:19:44.789279+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-24T17:52:22.990746+00:00"
+      "lastSuccessAt": "2026-11-25T17:19:44.789279+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-24T17:52:22.990746+00:00"
+      "lastSuccessAt": "2026-11-25T17:19:44.789279+00:00"
     }
   ],
   "articles": [
+    {
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "publishedAt": "2026-11-25T16:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "Introducing Search for Agents",
+      "url": "https://blog.cloudflare.com/search-for-agents/",
+      "publishedAt": "2026-11-25T14:00:00+00:00",
+      "source": "Cloudflare Blog",
+      "sourceId": "cloudflare",
+      "category": "Cloud & sécurité",
+      "context": "Infrastructure, performance du Web et sécurité des applications."
+    },
     {
       "title": "These are the gifts developers will actually want",
       "url": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
@@ -106,15 +124,6 @@
       "context": "Infrastructure, performance du Web et sécurité des applications."
     },
     {
-      "title": "Quad9’s withdrawal from France: A canary in the coal mine",
-      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "publishedAt": "2026-11-17T20:24:27+00:00",
-      "source": "Cloudflare Blog",
-      "sourceId": "cloudflare",
-      "category": "Cloud & sécurité",
-      "context": "Infrastructure, performance du Web et sécurité des applications."
-    },
-    {
       "title": "Maintainers don’t need more AI bug reports. They need fixes.",
       "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
       "publishedAt": "2026-11-17T18:29:29+00:00",
@@ -154,15 +163,6 @@
       "title": "Git security vulnerabilities announced",
       "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
       "publishedAt": "2026-11-10T18:00:00+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Beyond code generation: A developer’s guide to agentic engineering",
-      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
-      "publishedAt": "2026-11-06T22:15:59+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
