@@ -1,26 +1,26 @@
 {
-  "checkedAt": "2026-11-25T17:19:44.789279+00:00",
+  "checkedAt": "2026-11-26T16:59:35.200770+00:00",
   "sources": [
     {
       "id": "cloudflare",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-25T17:19:44.789279+00:00"
+      "lastSuccessAt": "2026-11-26T16:59:35.200770+00:00"
     },
     {
       "id": "github",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
       "status": "ok",
-      "lastSuccessAt": "2026-11-25T17:19:44.789279+00:00"
+      "lastSuccessAt": "2026-11-26T16:59:35.200770+00:00"
     },
     {
       "id": "mdn",
       "name": "MDN Web Docs",
       "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "lastSuccessAt": "2026-11-25T17:19:44.789279+00:00"
+      "lastSuccessAt": "2026-11-26T16:59:35.200770+00:00"
     }
   ],
   "articles": [
@@ -28,6 +28,15 @@
       "title": "Art of play in the age of AI",
       "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
       "publishedAt": "2026-11-25T16:00:00+00:00",
+      "source": "GitHub Blog",
+      "sourceId": "github",
+      "category": "Outils & IA",
+      "context": "Outils de développement, collaboration et intelligence artificielle."
+    },
+    {
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "publishedAt": "2026-11-25T15:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
@@ -154,15 +163,6 @@
       "title": "Build once, run on any agent: A practical guide to agent skills",
       "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
       "publishedAt": "2026-11-12T22:54:52+00:00",
-      "source": "GitHub Blog",
-      "sourceId": "github",
-      "category": "Outils & IA",
-      "context": "Outils de développement, collaboration et intelligence artificielle."
-    },
-    {
-      "title": "Git security vulnerabilities announced",
-      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
-      "publishedAt": "2026-11-10T18:00:00+00:00",
       "source": "GitHub Blog",
       "sourceId": "github",
       "category": "Outils & IA",
